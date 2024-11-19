@@ -1,8 +1,10 @@
-//homepage 
+//homepage
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-}
+    height: 3000px;
+    background: linear-gradient(180deg, white 0%, white 30%, #c7c1ff 55%);
+  }
 
 .hero-image {
   background: url(headerimg.jpeg) no-repeat center;
@@ -41,5 +43,79 @@ body {
   background-color: #c7c1ff;
   color: #31294c ;
 }
+.column {
+  float: left;
+  padding: 10px;
+  height: 200px;
+  padding-bottom: 800px;
+}
+
+.left {
+  width: 55%;
+}
+
+.right {
+  width: 35%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+p {
+  font-size: 20px;
+  text-align: left;
+  padding: 20px;
+}
+h1 {
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+}
+h2 {
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+}
+h3 {
+  font-size: 30px;
+  text-align: left;
+  padding: 40px;
+}
+.container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin-left: 40%;
+  margin-bottom: 50px;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  height: 50px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
 
 
