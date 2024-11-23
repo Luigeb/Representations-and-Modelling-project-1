@@ -1,130 +1,114 @@
 body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  height: 3000px;
-  background: linear-gradient(180deg, white 0%, white 30%, #c7c1ff 55%);
+  margin: 0px;
 }
-
-.hero-image {
-  background: url(background-project.jpg) no-repeat center;
+/*.intro {
+  background-image: url("background-project.jpg");
   background-size: cover;
   height: 400px;
   position: relative;
 }
 
-.hero-text {
+.intro h3 {
   text-align: center;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
-}
-.topnav {
-  background-color: #dddaff;
-  overflow: hidden;
-}
-.topnav a {
-  float: left;
-  color: #554e98;
-  text-align: center;
-  padding-bottom: 14px;
-  padding-top: 14px;
-  text-decoration: none;
-  font-size: 17px;
+  font-size: 50px;
   font-family: Tahoma;
 }
-.topnav a:hover {
-  background-color: #c7c1ff;
-  color: #31294c;
+
+ */
+.Header {
+  position: sticky;
+  top: 0;
+  padding: 10px 16px;
+  background: #9984D4;
+  color: #592E83;
+  float: none;
+  text-align: center;
 }
-.topnav a.active {
-  background-color: #c7c1ff;
-  color: #31294c ;
+.Header a {
+  color: #592E83;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 .column {
   float: left;
+  width: 45%;
   padding: 10px;
-  height: 200px;
-  padding-bottom: 800px;
 }
 
-.left {
-  width: 55%;
-}
-
-.right {
-  width: 35%;
-}
 .row:after {
   content: "";
   display: table;
   clear: both;
+  padding: 10px;
 }
-p {
+.column h2 {
+  text-align: center;
+}
+.column {
+  align-content: right;
+  padding: 15px;
+  margin: 15px;
   font-size: 20px;
-  text-align: left;
+}
+.steps {
+  float: left;
+  width: 95%;
   padding: 20px;
 }
-h1 {
-  font-size: 30px;
+.steps:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 10px;
+}
+.left {
   text-align: center;
-  padding: 20px;
+  font-size: 20px;
+  padding: 15px;
+  margin: 15px;
 }
-h2 {
-  font-size: 30px;
-  text-align: center;
-  padding: 20px;
+.right {
+  align-content: right;
+  font-size: 20px;
+  padding: 15px;
+  margin: 15px;
 }
-h3 {
-  font-size: 30px;
-  text-align: left;
-  padding: 40px;
+
+.bg-img {
+  background-image: url("background-project.jpg");
+
+  min-height: 380px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
 }
+.
 .container {
   position: relative;
-  width: 400px;
-  height: 400px;
-  margin-left: 40%;
-  margin-bottom: 50px;
+  margin: 20px;
+  width: auto;
+  text-align: center;
+  color: white;
 }
-.image {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-
-.overlay {
+.centered {
   position: absolute;
-  bottom: 0;
-  left: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  height: 50px;
-  transition: .5s ease;
-  opacity:0;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.div {
   text-align: center;
-}
 
-.container:hover .overlay {
-  opacity: 1;
 }
-.footer {
-  position: static;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #554e98;
-  color: white;
-  text-align: center;
-}
-
 .btn{
   background-color: black; /* Green */
   border: none;
@@ -226,7 +210,6 @@ h3 {
 .end {
   background-color: #c7c1ff;
 }
-/*
 ul.breadcrumb {
   padding: 10px 16px;
   list-style: none;
@@ -250,10 +233,3 @@ ul.breadcrumb li a:hover {
   color: #01447e;
   text-decoration: underline;
 }
-
-<div class="topnav">
-  <a href="BuyingTheComponents.html" style="width:33.33%" class="w3-bar-item w3-button w3-mobile">Link 1</a>
-  <a href="page2.html" style="width:33.33%" class="w3-bar-item w3-button w3-mobile">Link 2</a>
-  <a href="page3.html" style="width:33.33%" class="w3-bar-item w3-button w3-mobile">Link 3</a>
-</div>
- */
