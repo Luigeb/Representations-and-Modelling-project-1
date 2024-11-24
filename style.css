@@ -1,12 +1,11 @@
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  height: 3000px;
+  font-family: Tahoma;
   background: linear-gradient(180deg, white 0%, white 30%, #c7c1ff 55%);
 }
 
 .hero-image {
-  background: url(background-project.jpg) no-repeat center;
+  background: url(headerimg.jpeg) no-repeat center;
   background-size: cover;
   height: 400px;
   position: relative;
@@ -42,11 +41,18 @@ body {
   background-color: #c7c1ff;
   color: #31294c ;
 }
+.start {
+  background:linear-gradient(180deg, #c7c1ff 2%, #c7c1ff 32%, white 55%);
+  color: #31294c;
+  padding-top: 10px;
+  padding-bottom: 100px;
+  margin: 0;
+}
 .column {
   float: left;
   padding: 10px;
   height: 200px;
-  padding-bottom: 800px;
+  padding-bottom: 600px;
 }
 
 .left {
@@ -64,28 +70,74 @@ body {
 p {
   font-size: 20px;
   text-align: left;
-  padding: 20px;
+  padding: 30px;
+  color: #31294c;
 }
 h1 {
   font-size: 30px;
   text-align: center;
   padding: 20px;
+  color: white;
 }
 h2 {
   font-size: 30px;
   text-align: center;
-  padding: 20px;
+  padding: 40px;
+  color: #31294c;
 }
 h3 {
   font-size: 30px;
-  text-align: left;
-  padding: 40px;
+  text-align: center;
+  padding: 20px;
+  color: #31294c;
+  text-shadow: 2px 2px 5px mediumpurple;
+}
+a:link {
+  color: #554e98;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #554e98;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: cornflowerblue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: cornflowerblue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+h4 {
+  font-size: 70px;
+  text-align: center;
+  padding: 30px;
+  color: #31294c;
+  text-shadow: 2px 2px 5px mediumpurple;
+  color: #31294c;
+}
+.divider {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.divider::before, .divider::after {
+  flex: 1;
+  content: '';
+  padding: 3px;
+  background-color: white;
+  margin: 5px;
 }
 .container {
   position: relative;
   width: 400px;
   height: 400px;
-  margin-left: 40%;
+  margin-left: 36%;
   margin-bottom: 50px;
 }
 .image {
@@ -93,7 +145,6 @@ h3 {
   width: 100%;
   height: 100%;
 }
-
 .overlay {
   position: absolute;
   bottom: 0;
@@ -115,18 +166,18 @@ h3 {
 .container:hover .overlay {
   opacity: 1;
 }
+
 .footer {
   position: static;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #554e98;
+  background-color: #dddaff;
   color: white;
   text-align: center;
 }
-
 .btn{
-  background-color: black; /* Green */
+  background-color: black;
   border: none;
   color: white;
   padding: 16px 32px;
@@ -138,31 +189,31 @@ h3 {
   cursor: pointer;
 }
 
-.buttonHome {
-  background-color: #c7c1ff;
+.buttoncomponents {
+  background-color: #dddaff;
   color: black;
-  border: 2px solid  #c7c1ff;
+  border: 2px solid #dddaff;
 }
 
-.buttonHome:hover {
+.buttoncomponents:hover {
   background-color: white;
   color: white;
   border-color: #0275d8;
 }
 
-.buttonHome a{
+.buttoncomponents a{
   color: #0275d8;
   text-decoration: none;
 }
 
-.buttonHome a:hover {
+.buttoncomponents a:hover {
   color: #01447e;
   text-decoration: underline;
 }
 .buttonTop {
-  background-color: #c7c1ff;
+  background-color: #dddaff;
   color: black;
-  border: 2px solid #c7c1ff;;
+  border: 2px solid #dddaff;;
 }
 
 .buttonTop:hover {
@@ -181,9 +232,9 @@ h3 {
   text-decoration: underline;
 }
 .buttonStep {
-  background-color: #c7c1ff;
+  background-color: #dddaff;
   color: black;
-  border: 2px solid  #c7c1ff;
+  border: 2px solid #dddaff;
 }
 
 .buttonStep:hover {
@@ -203,9 +254,9 @@ h3 {
 }
 
 .buttonFAQ {
-  background-color: #c7c1ff;
+  background-color: #dddaff;
   color: black;
-  border: 2px solid  #c7c1ff;
+  border: 2px solid  #dddaff;
 }
 
 .buttonFAQ:hover {
@@ -224,36 +275,7 @@ h3 {
   text-decoration: underline;
 }
 .end {
-  background-color: #c7c1ff;
-}
-/*
-ul.breadcrumb {
-  padding: 10px 16px;
-  list-style: none;
-  background-color:  #c7c1ff;
-}
-ul.breadcrumb li {
-  display: inline;
-  font-size: 18px;
-  color: #31294c;
-}
-ul.breadcrumb li+li:before {
-  padding: 8px;
-  color: black;
-  content: "/\00a0";
-}
-ul.breadcrumb li a {
-  color: #0275d8;
-  text-decoration: none;
-}
-ul.breadcrumb li a:hover {
-  color: #01447e;
-  text-decoration: underline;
+  background-color: #dddaff;
 }
 
-<div class="topnav">
-  <a href="BuyingTheComponents.html" style="width:33.33%" class="w3-bar-item w3-button w3-mobile">Link 1</a>
-  <a href="page2.html" style="width:33.33%" class="w3-bar-item w3-button w3-mobile">Link 2</a>
-  <a href="page3.html" style="width:33.33%" class="w3-bar-item w3-button w3-mobile">Link 3</a>
-</div>
- */
+
