@@ -5,10 +5,10 @@ header {
 }
 body {
   margin: 0px;
-  background-color: white;
+  font-family: Tahoma;
 }
 .container{
-  background: url("background-project.jpg") no-repeat center;
+  background: url("headerimg.jpeg") no-repeat center;
   position: relative;
   background-size: cover;
   height: 400px;
@@ -27,22 +27,49 @@ h1 {
   font-family: Tahoma;
   text-align: center;
   font-size: xx-large;
+  color: #31294c;
 }
 h2 {
   font-family: Tahoma;
   text-align: center;
   font-size: x-large;
+  color: #31294c;
 }
 h3 {
   font-family: Tahoma;
   text-align: center;
   font-size: x-large;
+  color: #31294c;
+}
+.topnav {
+  background-color: #dddaff;
+  overflow: hidden;
+  color: #554e98;
+}
+.topnav a {
+  float: left;
+  color: #554e98;
+  text-align: center;
+  padding-bottom: 14px;
+  padding-top: 14px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Tahoma;
+}
+.topnav a:hover {
+  background-color: #c7c1ff;
+  color: #31294c;
+}
+.topnav a.active {
+  background-color: #c7c1ff;
+  color: #31294c ;
 }
 h4 {
   font-family: Tahoma;
   text-align: center;
   font-size: x-large;
-  text-shadow: 2px 2px 5px hotpink;
+  text-shadow: 2px 2px 5px mediumpurple;
+  color: #31294c;
 }
 .navbar {
   background-color: #554e98;
@@ -128,16 +155,16 @@ ul.breadcrumb li a:hover {
 
 }
 .bg-img {
-  background-image: url("background-project.jpg");
+  background-image: url("headerimg.jpeg");
 
   min-height: 380px;
 
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   position: relative;
- }
+}
 .
 .container {
   position: relative;
@@ -159,18 +186,19 @@ ul.breadcrumb li a:hover {
 
 p1 {
   text-align-last: center;
+  color: #31294c;
 }
 
 a:link {
-  color: hotpink;
+  color: #554e98;
   text-decoration: none;
 }
 a:visited{
-  color: rebeccapurple;
+  color: cornflowerblue;
   text-decoration: none;
 }
 a:hover {
-  color: #a53e76;
+  color: cornflowerblue;
   text-decoration: underline;
 }
 
@@ -184,18 +212,19 @@ ul {
 
 .start {
   background:linear-gradient(180deg, #c7c1ff 2%, #c7c1ff 32%, white 55%);
-  color: black;
+  color: #31294c;
   padding-top: 10px;
   padding-bottom: 150px;
   margin: 0;
 }
 p {
   margin: 10px;
+  color: #31294c;
 }
 .outset {
   border-style: outset;
   border-width: 10px;
-  border-color: hotpink;
+  border-color: #31294c;
   padding-bottom: 25px;
   margin: 10px;
 }
@@ -203,9 +232,17 @@ p {
   padding-top: 10px;
 }
 
-
+.footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #dddaff;
+  color: white;
+  text-align: center;
+}
 .btn{
-  background-color: black; /* Green */
+  background-color: black;
   border: none;
   color: white;
   padding: 16px 32px;
@@ -216,11 +253,10 @@ p {
   transition-duration: 0.4s;
   cursor: pointer;
 }
-
 .buttonHome {
-  background-color: #c7c1ff;
+  background-color: #dddaff;
   color: black;
-  border: 2px solid  #c7c1ff;
+  border: 2px solid  #dddaff;
 }
 
 .buttonHome:hover {
@@ -238,10 +274,32 @@ p {
   color: #01447e;
   text-decoration: underline;
 }
-.buttonTop {
-  background-color: #c7c1ff;
+
+.buttoncomponents {
+  background-color: #dddaff;
   color: black;
-  border: 2px solid #c7c1ff;;
+  border: 2px solid #dddaff;
+}
+
+.buttoncomponents:hover {
+  background-color: white;
+  color: white;
+  border-color: #0275d8;
+}
+
+.buttoncomponents a{
+  color: #0275d8;
+  text-decoration: none;
+}
+
+.buttoncomponents a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+.buttonTop {
+  background-color: #dddaff;
+  color: black;
+  border: 2px solid #dddaff;;
 }
 
 .buttonTop:hover {
@@ -260,9 +318,9 @@ p {
   text-decoration: underline;
 }
 .buttonStep {
-  background-color: #c7c1ff;
+  background-color: #dddaff;
   color: black;
-  border: 2px solid  #c7c1ff;
+  border: 2px solid #dddaff;
 }
 
 .buttonStep:hover {
@@ -282,9 +340,9 @@ p {
 }
 
 .buttonFAQ {
-  background-color: #c7c1ff;
+  background-color: #dddaff;
   color: black;
-  border: 2px solid  #c7c1ff;
+  border: 2px solid  #dddaff;
 }
 
 .buttonFAQ:hover {
@@ -303,5 +361,6 @@ p {
   text-decoration: underline;
 }
 .end {
-  background-color: #c7c1ff;
+  background-color: #dddaff;
 }
+
