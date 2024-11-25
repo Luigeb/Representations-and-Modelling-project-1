@@ -8,18 +8,34 @@
 
 <body>
 <!-- nav bar -->
-<nav>
-    <a href="page2.html" style="width:33.33%" class="w3-bar-item w3-button w3-mobile">Buying Components</a>
-    <a href="page3.html" style="width:33.33%" class="w3-bar-item w3-button w3-mobile">Step By Step Guide</a>
-    <a href="page4html" style="width:33.33%" class="w3-bar-item w3-button w3-mobile">Finding the computer for you</a>
-    <a href="page5html" style="width:33.33%" class="w3-bar-item w3-button w3-mobile">About us</a>
-</nav>
+<div class="hero-image">
+  <ul class="breadcrumb">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="page2.html">Buying the Components</a></li>
+    <li><a href="page3.html">Step By Step</a></li>
+    <li><a href="page4.html">About Us</a></li>
+  </ul>
+  <div class="hero-text">
+    <h1 style="font-size:50px">About Us</h1>
+  </div>
+</div>
+
+<div class="topnav">
+  <a href="index.html" style="width:24%">Home</a>
+  <a href="page2.html" style="width:25%">Buying Components</a>
+  <a href="page3.html" style="width:25%">Step By Step Guide</a>
+  <a href="page4.html" style="width:25%">About Us</a>
+</div>
+
+<div class="start">
+  <h3></h3>
+</div>
 
 <div class="container">
   <!-- Header -->
   <div class="text-box">
-  <h1>Find the right computer for you</h1>
-  <p>This guide will help you decide what type of computer you should choose to best fit your lifestyle for the best price and our <a href="page2.html">buying components</a> page for will link you to computer pieces that will be recommended below. We will also be going further into detail about the different components if you are still in doubt.</p>
+    <h1>Find the right computer for you</h1>
+    <p>This guide will help you decide what type of computer you should choose to best fit your lifestyle for the best price and our <a href="page2.html">buying components</a> page for will link you to computer pieces that will be recommended below. We will also be going further into detail about the different components if you are still in doubt.</p>
   </div>
 
   <div class="dropdown">
@@ -52,8 +68,8 @@
     <!-- Heading 2 : Operating System -->
   </div>
   <div class="text-box">
-  <h1>Operating System (OS)</h1>
-  <p>The operating system manages your software and changes how it looks.</p>
+    <h1>Operating System (OS)</h1>
+    <p>The operating system manages your software and changes how it looks.</p>
   </div>
 
   <div class="dropdown">
@@ -79,10 +95,10 @@
   </div>
 
   <!-- Heading 3 : Processor -->
- <div class="text-box">
-   <h1>Processor</h1>
-   <p>Processor is the heart of the computer and The more powerful the processor, the faster the computer can complete its tasks</p>
- </div>
+  <div class="text-box">
+    <h1>Processor</h1>
+    <p>Processor is the heart of the computer and The more powerful the processor, the faster the computer can complete its tasks</p>
+  </div>
 
   <div class="dropdown">
 
@@ -158,19 +174,19 @@
 
   <div class="dropdown">
 
-  <div class="dropdown-item">
-    <button class="dropdown-button" onclick="toggleDropdown('RAM-Functionality')">What does it do?</button>
-    <div id="RAM-Functionality" class="dropdown-content">
-      <p>It temporarily stores data that the CPU is actively using, so it can access it quickly. The more RAM you have, the more tasks and programs your computer can handle at once without slowing down.</p>
+    <div class="dropdown-item">
+      <button class="dropdown-button" onclick="toggleDropdown('RAM-Functionality')">What does it do?</button>
+      <div id="RAM-Functionality" class="dropdown-content">
+        <p>It temporarily stores data that the CPU is actively using, so it can access it quickly. The more RAM you have, the more tasks and programs your computer can handle at once without slowing down.</p>
+      </div>
+    </div>
+    <div class="dropdown-item">
+      <button class="dropdown-button" onclick="toggleDropdown('RAM-Required')">How much ram do I need?</button>
+      <div id="RAM-Required" class="dropdown-content">
+        <p>For basic tasks like browsing the web and using office apps, 8GB of RAM is usually enough. If you're into gaming or doing things like photo and video editing, 16GB is a good choice for smooth performance. For more demanding tasks like 3D design or heavy multitasking, 32GB or more may be needed</p>
+      </div>
     </div>
   </div>
-  <div class="dropdown-item">
-    <button class="dropdown-button" onclick="toggleDropdown('RAM-Required')">How much ram do I need?</button>
-    <div id="RAM-Required" class="dropdown-content">
-      <p>For basic tasks like browsing the web and using office apps, 8GB of RAM is usually enough. If you're into gaming or doing things like photo and video editing, 16GB is a good choice for smooth performance. For more demanding tasks like 3D design or heavy multitasking, 32GB or more may be needed</p>
-    </div>
-  </div>
- </div>
 </div>
 <!--Footer -->
 <footer>
